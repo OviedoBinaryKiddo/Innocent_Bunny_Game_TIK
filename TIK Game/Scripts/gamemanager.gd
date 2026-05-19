@@ -1,7 +1,7 @@
 extends Node
 
 var current_area = 1
-var area_path = "res://assets/scenes/areas/"
+var area_path = "res://scenes/areas/"
 
 var energy_cells = 0
 

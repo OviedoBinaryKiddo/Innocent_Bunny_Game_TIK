@@ -7,9 +7,12 @@
 radius = 13.0
 
 [node name="area_exit" type="Area2D" unique_id=297317023]
+scale = Vector2(12, 12)
+collision_layer = 65536
 script = ExtResource("1_h1ymn")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=294580335]
+z_index = -10
 texture = ExtResource("2_b3htj")
 region_enabled = true
 region_rect = Rect2(22, 0, 22, 22)

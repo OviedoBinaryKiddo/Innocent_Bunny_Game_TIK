@@ -11,12 +11,17 @@ config_version=5
 [application]
 
 config/name="TIK Game project"
+run/main_scene="uid://dfs5ywyhdi1ei"
 config/features=PackedStringArray("4.6")
 config/icon="res://icon.png"
 
 [audio]
 
 buses/default_bus_layout="uid://bm7yypuippnlw"
+
+[autoload]
+
+Gamemanager="*uid://b0bigeh12iggb"
 
 [gui]
 
